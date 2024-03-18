@@ -25,7 +25,7 @@ const Input = React.forwardRef(
       prefix,
       suffix,
       onChange,
-      shape = "",
+      shape,
       variant = "underline",
       size = "xs",
       color = "gray_900_87",
@@ -40,7 +40,7 @@ const Input = React.forwardRef(
     return (
       <>
         <div
-          className={`${className} flex items-center justify-center text-gray-900 tracking-[2.00px] uppercase text-lg font-medium border-b border-gray-900_87 border-solid ${shapes[shape] || ""} ${variants[variant]?.[color] || variants[variant] || ""} ${sizes[size] || ""}`}
+          className={`${className} flex items-center justify-center text-gray-900 tracking-[2.00px] uppercase text-lg font-medium border-b border-gray-900_87 border-solid  ${(shape && shapes[shape]) || ""} ${variants[variant]?.[color] || variants[variant] || ""} ${sizes[size] || ""}`}
         >
           {!!label && label}
           {!!prefix && prefix}

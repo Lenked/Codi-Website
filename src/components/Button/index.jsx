@@ -19,7 +19,7 @@ const Button = ({
   className = "",
   leftIcon,
   rightIcon,
-  shape = "",
+  shape,
   variant = "gradient",
   size = "sm",
   color = "",

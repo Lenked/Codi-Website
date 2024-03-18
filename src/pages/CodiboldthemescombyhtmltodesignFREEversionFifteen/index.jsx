@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Text, Img, Heading, Input, Button } from "../../components";
+import Image from "../../components/Image";
 
 export default function CodiboldthemescombyhtmltodesignFREEversionFifteenPage() {
   return (
@@ -118,43 +119,10 @@ export default function CodiboldthemescombyhtmltodesignFREEversionFifteenPage() 
                               </Heading>
                             </a>
                           </div>
-                          <div className="flex md:flex-col mt-[148px] gap-10">
-                            <div className="h-[247px] w-full relative">
-                              <Img
-                                src="images/img_link_image_01_home_01_jpg.png"
-                                alt="linkimageone"
-                                className="justify-center h-[247px] w-full md:h-auto left-0 bottom-0 right-0 top-0 m-auto object-cover absolute rounded-[32px]"
-                              />
-                              <Img
-                                src="images/img_div_bt_bb_image_content_flex.svg"
-                                alt="divbtbbimage"
-                                className="justify-center h-[247px] left-0 bottom-0 right-0 top-0 m-auto absolute rounded-[32px]"
-                              />
-                            </div>
-                            <div className="h-[247px] w-full relative">
-                              <Img
-                                src="images/img_link_image_02_home_01_jpg.png"
-                                alt="linkimagetwo"
-                                className="justify-center h-[247px] w-full md:h-auto left-0 bottom-0 right-0 top-0 m-auto object-cover absolute rounded-[32px]"
-                              />
-                              <Img
-                                src="images/img_div_bt_bb_image_content_flex.svg"
-                                alt="divbtbbimage"
-                                className="justify-center h-[247px] left-0 bottom-0 right-0 top-0 m-auto absolute rounded-[32px]"
-                              />
-                            </div>
-                            <div className="h-[247px] w-full relative">
-                              <Img
-                                src="images/img_link_image_03_home_01_jpg.png"
-                                alt="linkimagethree"
-                                className="justify-center h-[247px] w-full md:h-auto left-0 bottom-0 right-0 top-0 m-auto object-cover absolute rounded-[32px]"
-                              />
-                              <Img
-                                src="images/img_div_bt_bb_image_content_flex.svg"
-                                alt="divbtbbimage"
-                                className="justify-center h-[247px] left-0 bottom-0 right-0 top-0 m-auto absolute rounded-[32px]"
-                              />
-                            </div>
+                          <div className="flex md:flex-col self-stretch mt-[148px] gap-10">
+                            <Image className="h-[247px] w-full relative" />
+                            <Image className="h-[247px] w-full relative" />
+                            <Image className="h-[247px] w-full relative" />
                           </div>
                           <div className="flex md:flex-col justify-between w-full mt-[38px] gap-5 md:p-5 max-w-[1133px]">
                             <Text size="md" as="p" className="tracking-[2.00px] uppercase !text-[17.9px]">
@@ -185,11 +153,11 @@ export default function CodiboldthemescombyhtmltodesignFREEversionFifteenPage() 
           <Text
             size="2xl"
             as="p"
-            className="mt-[118px] ml-[260px] md:ml-0 !text-gray-900 tracking-[2.00px] uppercase !text-[23.2px]"
+            className="mt-[118px] ml-5 md:ml-0 !text-gray-900 tracking-[2.00px] uppercase !text-[23.2px]"
           >
             01 — What We do
           </Text>
-          <Heading size="6xl" as="h2" className="w-[53%] md:w-full mt-3 ml-[260px] md:ml-0 !text-[96.1px]">
+          <Heading size="6xl" as="h2" className="w-auto md:w-full mt-3 ml-5 md:ml-0 !text-[96.1px]">
             <>
               Stunning Websites
               <br />
@@ -226,7 +194,7 @@ export default function CodiboldthemescombyhtmltodesignFREEversionFifteenPage() 
               </div>
               <div>
                 <div className="w-full mx-auto md:p-5 max-w-[1400px]">
-                  <div className="mt-[250px]">
+                  <div className="mt-[280px]">
                     <div className="justify-center gap-10 grid-cols-3 px-5 md:grid-cols-[1fr] grid">
                       <div className="flex flex-col items-start w-full gap-[216px] p-10 md:gap-[162px] sm:gap-[108px] sm:p-5 bg-gray-100_b2 rounded-[32px]">
                         <Img src="images/img_icon_gray_900.svg" alt="image" className="h-[48px] w-[47px]" />
@@ -498,7 +466,7 @@ export default function CodiboldthemescombyhtmltodesignFREEversionFifteenPage() 
                       </div>
                     </div>
                     <div className="flex flex-col items-start w-[81%] md:w-full gap-[58px] sm:gap-[29px]">
-                      <div className="flex flex-col gap-[27px]">
+                      <div className="flex flex-col self-stretch gap-[27px]">
                         <div className="flex sm:flex-col justify-between items-center gap-5 flex-1">
                           <Img src="images/img_link.svg" alt="security_one" className="h-[88px] w-[88px]" />
                           <div className="flex flex-col w-[76%] sm:w-full gap-2">
